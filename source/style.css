@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+:root{
+     --WHITE: #ffff;
+     --BLACK: #0000;
+     --BLACK29: #1d1d1d;
+     --BLACK61: #3d3d3d;
+     --GREY: 	#7b7b7b;
+     --PURPLE: #454679;
+     --YELLOW: #ffc900;
+
+}
+*{
+     padding: 0;
+     margin: 0;
+}
+body{
+     background-color: var(--BLACK29);
+}
+#header{
+     background-color: var(--BLACK);
+     padding: 0 400px 0 400px;
+     width: 100wh;
+     height: 60px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+#header h1{
+     color: var(--YELLOW);
+     font-family: "MuseoModerno";
+}
+#header #topics{
+     display: inline-block;
+}
+
+#topics a{
+     color: var(--YELLOW);
+     font-family: "MuseoModerno";
+}
+
+#topics a:hover{
+     border-bottom-style: solid;
+     border-width: 2px;
+}
+
+#topics a{
+     margin: 0 10px 0 10px;
+}
+#home{
+     padding: 0 400px 0 400px;
+     width: 100wh;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+#profile{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+#profile img{
+     float: left;
+     height: 400px;
+}
+.name{
+     display: flex;
+     flex-direction: column;
+     text-align: end;
+}
+.name h2{
+     color: var(--PURPLE);
+     font-family: "MuseoModerno";
+     font-size: 30px;
+}
+.name h1{
+     color: var(--YELLOW);
+     font-family: "MuseoModerno";
+     font-size: 70px;
+}
