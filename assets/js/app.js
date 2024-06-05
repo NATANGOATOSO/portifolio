@@ -27,3 +27,13 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
      document.body.classList.add('light-mode');
      icon.textContent = "dark_mode"
 }
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+     anchor.addEventListener('click', function(e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+               behavior: 'smooth'
+          });
+     });
+});
