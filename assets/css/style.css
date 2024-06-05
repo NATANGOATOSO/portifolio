@@ -279,6 +279,16 @@ body.light-mode {
      align-items: center;
      padding: 10px 0 10px 0;
 }
+#footer #contatos{
+     height: 40px;
+     margin: 20px 0 30px 0;
+     filter: invert();
+}
+
+#contatos img{
+     padding: 0 10px 0 10px;
+     height: 40px;
+}
 
 #footer p{
      color: var(--LETTERCOLOR);
