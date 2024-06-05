@@ -23,15 +23,15 @@ body.light-mode {
      --PRIMARY: var(--WHITE1);
      --SECONDARY: var(--WHITE2);
      --LETTERCOLOR: var(--BLACK);
- }
+}
 
- body.dark-mode {
+body.dark-mode {
      --PRIMARY: var(--BLACK);
      --SECONDARY: var(--BLACK1);
      --LETTERCOLOR: var(--WHITE);
- }
+}
 
- .toggle-button {
+.toggle-button {
      position: fixed;
      bottom: 20px;
      left: 20px;
@@ -88,6 +88,11 @@ body.light-mode {
      margin: 0 10px 0 10px;
      text-decoration: none;
 }
+
+#menubutton{
+     visibility: hidden;
+}
+
 #home{
      background-color: var(--PRIMARY);
      padding: 100px 20% 100px 20%;
@@ -176,7 +181,7 @@ body.light-mode {
 #cont-proj .sep-proj{
      background-color: var(--SECONDARY);
      margin: 30px;
-     min-width: 400px;
+     min-width: 300px;
      max-width: 500px;
      min-height: 500px;
      max-height: 700px;
@@ -215,6 +220,7 @@ body.light-mode {
      font-family: "MuseoModerno";
      color: var(--LETTERCOLOR);
      text-decoration: none;
+     overflow-wrap: break-word;
 }
 
 #cont-proj .sep-proj:hover{
@@ -243,10 +249,10 @@ body.light-mode {
 #cont-know .sep-know{
      background-color: var(--SECONDARY);
      margin: 30px;
-     min-width: 400px;
-     max-width: 500px;
-     min-height: 500px;
-     max-height: 700px;
+     min-width: 200px;
+     max-width: 300px;
+     min-height: 400px;
+     max-height: 500px;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
