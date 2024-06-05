@@ -137,6 +137,9 @@ body{
      height: 400px;
      text-align: center;
 }
+#cont-proj a{
+     text-decoration: none;
+}
 
 .sep-proj h2{
      font-family: "MuseoModerno";
