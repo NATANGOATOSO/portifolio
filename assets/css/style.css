@@ -35,8 +35,8 @@ body.light-mode {
      position: fixed;
      bottom: 20px;
      left: 20px;
-     width: 50px;
-     height: 50px;
+     min-width: 50px;
+     min-height: 50px;
      border-radius: 50%;
      background-color: var(--BLACK61);
      color: #fff;
@@ -169,8 +169,10 @@ body.light-mode {
 #cont-proj .sep-proj{
      background-color: var(--SECONDARY);
      margin: 30px;
-     width: 20rem;
-     height: 27rem;
+     min-width: 400px;
+     max-width: 500px;
+     min-height: 500px;
+     max-height: 700px;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
@@ -224,13 +226,16 @@ body.light-mode {
      display: flex;
      flex-wrap: wrap;
      width: 100%;
+     justify-content: space-around;
 }
 
 #cont-know .sep-know{
      background-color: var(--SECONDARY);
      margin: 30px;
-     width: 20rem;
-     height: 27rem;
+     min-width: 400px;
+     max-width: 500px;
+     min-height: 500px;
+     max-height: 700px;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
@@ -238,7 +243,6 @@ body.light-mode {
      align-items: center;
      border-radius: 20px;
      box-shadow: 10px 10px 20px;
-
 }
 
 .sep-know img{
