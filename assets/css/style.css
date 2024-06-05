@@ -61,6 +61,7 @@ body.light-mode {
      align-items: center;
      position: fixed;
      box-shadow: 5px 0 10px;
+     z-index: 3;
 }
 #header a{
      text-decoration: none;
@@ -108,6 +109,12 @@ body.light-mode {
      box-shadow: 10px 10px 30px;
 
 }
+
+#profile img:hover{
+     transform: scale(110%);
+     z-index: 0;
+}
+
 .name{
      display: flex;
      flex-direction: column;
@@ -208,6 +215,10 @@ body.light-mode {
      font-family: "MuseoModerno";
      color: var(--LETTERCOLOR);
      text-decoration: none;
+}
+
+#cont-proj .sep-proj:hover{
+     transform: scale(105%);
 }
 
 #know{
