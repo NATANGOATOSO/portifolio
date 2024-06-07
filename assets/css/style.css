@@ -199,7 +199,7 @@ header{
 }
 
 .proj{
-     background-color: var(--SECONDARY);
+     background-color: var(--PRIMARY);
      max-width: 300px;
      height: 400px;
      margin: 10px 20px 20px 20px;
@@ -207,6 +207,8 @@ header{
      display: flex;
      flex-direction: column;
      border-radius: 10px;
+
+     box-shadow: 10px 10px 20px;
 }
 .proj h2{
      font-family: "MuseoModerno";
@@ -231,57 +233,66 @@ header{
 }
 
 /*FINAL CSS PROJECTS*/
-
+/*INICIO CSS CONHECIMENTOS*/
 #know{
      background-color: var(--SECONDARY);
-     width: 100wh;
-     padding: 100px 20% 100px 20%;
+     padding: 50px 0 100px 0;
 }
-
-#know h1{
+#knowContainer h1{
      font-size: 50px; 
      font-family: "MuseoModerno"; 
      color: var(--PURPLE);
+     margin-bottom: 40px;
 }
 
-#cont-know{
+#knowContainer{
+     min-width: 400px;
+     max-width: 1200px;
+     margin: 100px 0 100px 0;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+#knowContent{
      display: flex;
      flex-wrap: wrap;
-     width: 100%;
-     justify-content: space-around;
+     margin: auto;
+     text-align: center;
 }
 
-#cont-know .sep-know{
+#knowContent img{
+     padding: 10px;
+     width: 60%;
+}
+
+.sepKnow{
      background-color: var(--SECONDARY);
-     margin: 30px;
-     min-width: 200px;
-     max-width: 300px;
-     min-height: 400px;
-     max-height: 500px;
+     max-width: 200px;
+     height: 300px;
+     margin: 10px 20px 20px 20px;
+     padding: 10px 20px 10px 20px;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
-     text-align: center;
+
      align-items: center;
-     border-radius: 20px;
+     border-radius: 10px;
+
      box-shadow: 10px 10px 20px;
 }
-
-.sep-know img{
-     width: 70%;
-     padding: 10px;
-}
-
-.sep-know h2{
+.sepKnow h2{
      font-family: "MuseoModerno";
      color: var(--LETTERCOLOR);
 }
 
-.sep-know p{
+.sepKnow p{
      font-family: "MuseoModerno";
      color: var(--YELLOW);
-     font-size: 20px;;
+     font-size: 25px;
 }
+/*FINAL CSS CONHECIMENTOS*/
 
 #footer{
      background-color: var(--SECONDARY);
